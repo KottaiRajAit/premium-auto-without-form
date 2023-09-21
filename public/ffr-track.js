@@ -47,7 +47,7 @@ async function ochntrack() {
                 "userEmail": populatedData?.data?.userEmail,
                 "userPhone": populatedData?.data?.userPhone,
                 "offerCategoryId": populatedData?.data?.offerCategoryId,
-
+                "offerId": populatedData?.data?.offerId,
                 "locationId": populatedData?.data?.locationId,
             }
             const response = await ochn.register(leadDetails, true)
